@@ -63,7 +63,7 @@ rpcuser=admin
 rpcpassword=admin
 ```
 
-Sourcing the script with `. contrib/startup_regtest.sh` will launch bitcoind along two lightning nodes.
+Sourcing the script with `. contrib/startup_regtest.sh` update the script and `start_ln` will launch bitcoind along with two lightning nodes.
 If no bitcoin wallet has been previously loaded, an error will pop out asking to create or load a wallet.
 
 ```
